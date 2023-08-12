@@ -3,20 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Menu LeResto'</title>
-    <style>
-    table,
-td {
-    border: 1px solid #333;
-}
-
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
-}
-
-    </style>
 </head>
+
 <body>
     
     <h1>Le menu</h1>
@@ -30,43 +18,49 @@ tfoot {
 
 
     <table> <!--Tableau-->
-            <td colspan="2">Entrée</td>
-            <td>Prix</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Tartare de saumon</td>
-            <td>8€</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Avocats aux crevettes</td>
+        <thead>
+            <tr>
+                <th>Entrée</th>
+                <th>Prix</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tartare de saumon</th>
+                <td>8€</td>
+            </tr>
+            <tr>
+            <th>Avocats aux crevettes</th>
             <td>9€</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Tortilla aux légumes</td>
+            </tr>
+            <tr>
+            <th>Tortilla aux légumes</th>
             <td>6€</td>
-        </tr>
-        <tr>
-            <td colspan="3">Plat</td>
-        </tr>
-        <tr>
-            <td><img src="img/LeResto'.jpg" alt="Photo d'une entrée"></td>
-            <td>Steak Frite</td>
-            <td >15€</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>Steak</td>
-            <td>8€</td>
-        </tr>
-        <tr>
-            <td colspan="1">Déssert</td>
-                <td>Mousse au chocolat</td>
+            </tr>
+            <tr>
+                <th colspan="2">Plat</th>
+            </tr>
+            <tr>
+                <th>Steak Frite</th>
+                <td >15€</td>
+            </tr>
+            <tr>
+                <th>Steak</th>
+                <td>8€</td>
+            </tr>
+            <tr>
+                <th colspan="2">Déssert</th>
+            </tr>
+            <tr>
+                <th>Mousse au chocolat</th>
                 <td>4€</td>
             </tr>
-        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"><em>Tous les prix sont indiqués TTC</em></td>
+            </tr>
+        </tfoot>
     </table>
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque ullam eos dignissimos consequatur consequuntur, perferendis quibusdam, quam minima inventore assumenda enim dicta nostrum perspiciatis adipisci alias voluptatum a voluptatem?
