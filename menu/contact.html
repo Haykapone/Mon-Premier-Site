@@ -18,23 +18,28 @@
                 <legend>Nous contacter</legend>
                 <div>
                     <label for="emailinput">Vorte email</label>
-                    <input type="text" name="email" id="emailinput" placeholder="contact@demo.fr">
+                    <input type="text" name="email" id="emailinput" placeholder="contact@demo.fr" required>
                 </div>
                 <div>
                     <label for="nameinput">Votre nom</label>
                     <input type="text" name="fistname" id="nameinput">
                 </div>
                 <div>
-                    <label for="masculin">Masculin</label>
-                    <input type="radio" name="sexe" id="masculin">
+                    <label id="sexe">Sexe</label>
+                    <select name="sexe" id="sexe">
+                        <option value="m">Masculin</option>
+                        <option value="f">Féminin</option>
+                    </select>
                 </div>
                 <div>
-                    <label for="feminin">Feminin</label>
-                    <input type="radio" name="sexe" id="feminin">
+                    <label for="message">Votre message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Ecrivez ici"></textarea>
                 </div>
                 <div>
                     <label><input type="checkbox" name="cgu">J'accepte les conditions d'utilisation</label>
                 </div>
+                <input type="submit" value="Envoyer un Email"> 
+                <input type="reset" value="Annuler">
             </fieldset>
         </form>
     </body>
